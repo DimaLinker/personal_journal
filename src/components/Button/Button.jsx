@@ -1,8 +1,8 @@
-import './Button.css'
+import "./Button.css";
 export const Button = () => {
-    return (
-        <>
-            <button className='button accent'>Hinzufügennnn</button>
-        </>
-    )
-}
+  return (
+    <>
+      <button className="button accent">Hinzufügennnn</button>
+    </>
+  );
+};
