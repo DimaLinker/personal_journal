@@ -1,5 +1,5 @@
 import "./Header.css";
 
 export const Header = () => {
-  return <>LOGO</>;
+  return <img className="logo" src="/logo.svg" alt="logo" />;
 };
