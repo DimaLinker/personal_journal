@@ -1,13 +1,9 @@
 import "./Button.css";
 import { useState } from "react";
-export const Button = () => {
-  const [text, setText] = useState("Ausgabe");
-  const click = () => {
-    setText("zumachen");
-  };
+export const Button = ({ text, onClick }) => {
   return (
     <>
-      <button className="button accent" onClick={click}>
+      <button className="button accent" onClick={onClick}>
         {text}
       </button>
     </>

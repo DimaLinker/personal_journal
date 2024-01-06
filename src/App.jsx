@@ -7,6 +7,8 @@ import { Body } from "./components/Layout/Body/Body.jsx";
 import { Header } from "./components/Header/Header.jsx";
 import { JournalList } from "./components/JournalList/JournalList.jsx";
 import { JournalAddButton } from "./components/JournalAddButton/JournalAddButton.jsx";
+import { useState } from "react";
+import { JournalForm } from "./components/JournalForm/JournalForm.jsx";
 
 function App() {
   const data = [
@@ -46,8 +48,8 @@ function App() {
         </JournalList>
       </LeftPanel>
       <Body>
-        <Button />
-        Body
+        {/*<Button />*/}
+        <JournalForm />
       </Body>
     </div>
   );
